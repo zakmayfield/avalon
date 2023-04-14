@@ -1,6 +1,7 @@
 {
   "private": true,
   "sideEffects": false,
+  "description": "clone of the discord navigation menu",
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",

@@ -1,4 +1,5 @@
 import type { V2_MetaFunction } from '@remix-run/react';
+import SideBar from '~/components/SideBar';
 
 export const meta: V2_MetaFunction = () => {
   return [{ title: 'Discord Navigation Clone' }];
@@ -7,7 +8,7 @@ export const meta: V2_MetaFunction = () => {
 export default function Index() {
   return (
     <div>
-      <h1 className='text-4xl font-bold text-center'>Hello there, General Kenobi.</h1>
+      <SideBar />
     </div>
   );
 }
